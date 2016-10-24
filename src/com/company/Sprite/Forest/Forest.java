@@ -14,7 +14,7 @@ public class Forest extends JPanel {
     private ImageLoader path = new ImageLoader();
 
     public Forest() throws IOException {
-        for(int i=0;i<7;i++)
+        for(int i=0;i<10;i++)
         {
             imgArr.add(path.loadImage("forest"+(i+1)+".png"));
         }

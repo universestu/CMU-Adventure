@@ -1,7 +1,7 @@
 package com.company.Window;
 
+import com.company.Map.Map1.Map1;
 import com.company.Map.Node_Map;
-import com.company.Map.Preparing_Map;
 
 import javax.swing.*;
 import java.awt.*;
@@ -15,7 +15,7 @@ import java.io.IOException;
 public class Sub_Frame extends JPanel implements Runnable{
     private int width=500,height=500;
     private Thread th;
-    private Preparing_Map world = new Preparing_Map();
+    private Map1 world = new Map1();
 
     public Sub_Frame() throws IOException {
         setPreferredSize(new Dimension(width,height));
