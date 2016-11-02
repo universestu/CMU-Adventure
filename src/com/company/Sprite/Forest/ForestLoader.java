@@ -9,7 +9,7 @@ import java.net.URL;
 /**
  * Created by Chetsada Chaiprasop on 10/22/2016.
  */
-public class ImageLoader {
+public class ForestLoader {
     public BufferedImage loadImage(String pathRelativeToThis) throws IOException {
         URL url = this.getClass().getResource(pathRelativeToThis);
         BufferedImage image = ImageIO.read(url);

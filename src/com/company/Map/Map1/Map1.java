@@ -11,11 +11,8 @@ public class Map1 {
     private Node_Map map = null;
     private Node_Map position = null;
 
-    public Map1()
-    {
+    public Map1() throws IOException {
         map = new Node_Map(new Sub_map1());
-        map.setDirection_E(new Sub_map2());
-        map.setDirection_N(new Sub_map3());
         position = map;
     }
 
