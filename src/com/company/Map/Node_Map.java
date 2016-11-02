@@ -15,8 +15,6 @@ public class Node_Map {
         this.map=map;
     }
 
-    //marsh map
-
     public void setDirection_N(iMap next_Map)
     {
         Node_Map temp = new Node_Map(next_Map);

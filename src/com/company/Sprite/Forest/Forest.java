@@ -11,10 +11,10 @@ import java.util.ArrayList;
  */
 public class Forest extends JPanel {
     private ArrayList<BufferedImage> imgArr = new ArrayList<>();
-    private ImageLoader path = new ImageLoader();
+    private ForestLoader path = new ForestLoader();
 
     public Forest() throws IOException {
-        for(int i=0;i<7;i++)
+        for(int i=0;i<11;i++)
         {
             imgArr.add(path.loadImage("forest"+(i+1)+".png"));
         }
