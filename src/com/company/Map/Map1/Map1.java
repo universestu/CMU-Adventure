@@ -42,16 +42,5 @@ public class Map1 extends JPanel implements iMap {
                 forest.draw(i*10,j*10,0,g);
             }
         }
-        //layer2
-        forest.tree01(450,0,g);
-        forest.tree01(360,0,g);
-        forest.tree01(270,0,g);
-        forest.tree01(180,0,g);
-        forest.tree01(90,0,g);
-        forest.tree01(0,0,g);
-        forest.draw(450,0,2,g);
-        forest.draw(-30,0,2,g);
-
-        forest.draw(0,470,6,g);
     }
 }
