@@ -21,7 +21,7 @@ public class Sub_map1 extends JPanel implements iMap {
     @Override
     public void paintMap(Graphics g) throws IOException {
         //drawMap(g);
-        drawGrid(g);
+        //drawGrid(g);
         showStatus_Map(g);
     }
 
@@ -102,6 +102,8 @@ public class Sub_map1 extends JPanel implements iMap {
 
     private void showStatus_Map(Graphics g)
     {
+        g.setColor(Color.orange);
+        g.fillRect(0,0,width,height);
         g.setColor(Color.black);
         for(int i=0;i<width/10;i++)
         {
